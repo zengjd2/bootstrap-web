@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 响应式 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <title>Document</title>
+    <style type="text/css">
+    #home img {
+        width: 100%;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <ul class="nav nav-tabs" role="tablist" id="myTab">
+            <li class="active"><a href="#home" role="tab" data-toggle="tab">第一项</a></li>
+            <li class=""><a href="#profile" role="tab" data-toggle="tab">第二项</a></li>
+            <li class=""><a href="#messages" role="tab" data-toggle="tab">第三项</a></li>
+            <li class=""><a href="#settings" role="tab" data-toggle="tab">第四项</a></li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane active" id="home">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h3>
+                        慕课网 
+                        <small>
+                        是一家从事互联网免费教学的网络教育公司。 
+                        </small> 
+                        </h3>
+                        <p>秉承"开拓、创新、公平、分享"的精神，将互联网特性全面的应用在教育领域，致力于为教育机构及求学者打造一站式互动在线教育品牌。</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="http://www.baidu.com/img/bd_logo1.png" class="img-responsive" alt="Responsive image">
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane" id="profile">
+                <h3>慕课网是做什么的？
+                    <small> 互联网技能教育，免费的哦</small> 
+                </h3> <img src="http://www.baidu.com/img/bd_logo1.png" class="img-responsive" alt="Responsive image">
+            </div>
+            <div class="tab-pane" id="messages">
+                <h3>慕课网都有哪些讲师？课程质量高吗？
+                    <small> 学了就知道，我们不爱吹，低调是最牛逼的炫耀</small> 
+                </h3> <img src="http://www.baidu.com/img/bd_logo1.png" class="img-responsive" alt="Responsive image">
+            </div>
+            <div class="tab-pane" id="settings">
+                <h3>我在慕课网学习能得到什么？
+                    <small>屌丝逆袭不是传说,但关键是你学不学</small> 
+                </h3> <img src="http://www.baidu.com/img/bd_logo1.png" class="img-responsive" alt="Responsive image">
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!--   <script>
+    $(function() {
+        $('#myTab a[href="#profile"]').tab('show');
+    });
+    </script> -->
+</body>
+
+</html>
